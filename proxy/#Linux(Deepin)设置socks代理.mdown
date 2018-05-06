@@ -1,14 +1,14 @@
-#Linux(Deepin)设置socks代理
+# Linux(Deepin)设置socks代理
 
-###购买VPS
-我选择的是Bandwagon的VPS，20$一年。然后[安装ss服务](http://example.com/)。
-![bandwagon](image/1.png "bandwagon")
+### 购买VPS
 
-###本地安装ss客户端
-ss在各个平台都有客户单，在linux上是shadowsocks-Qt5。配置完成后，还要设置DeepIn的全局代理，否则是没有效果的。
-![proxy](image/2.png "proxy")
+我选择的是Bandwagon的VPS，20$一年。然后[安装ss服务](http://example.com/)。![bandwagon](image/1.png "bandwagon")
 
-###用pac的方式来设置代理
+### 本地安装ss客户端
+
+ss在各个平台都有客户单，在linux上是shadowsocks-Qt5。配置完成后，还要设置DeepIn的全局代理，否则是没有效果的。![proxy](image/2.png "proxy")
+
+### 用pac的方式来设置代理
 
  全局代理的缺点就是所有的访问都会走代理，导致访问国内的网站速度很慢。这里通过Qt5+chrome的插件SwitchyOmega来实现。
 
